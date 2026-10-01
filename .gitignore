@@ -1,0 +1,14 @@
+# Terraform cache
+**/.terraform/*
+.terraform/
+
+# НЕ игнорируем .terraformrc и .terraform.lock.hcl
+!.terraformrc
+!.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# own secret vars store
+personal.auto.tfvars
